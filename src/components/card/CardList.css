@@ -1,0 +1,72 @@
+.main-container {
+  justify-content: center;
+  height: 100vh;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 30px;
+}
+
+.card-title {
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.card-phone {
+  font-weight: 600;
+}
+
+.card-email {
+  font-weight: 600;
+}
+
+.info-flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.card-img-top {
+  height: 25vw;
+  align-self: top;
+  object-fit: contain;
+}
+
+.loading {
+  font-size: 4rem;
+  margin: 20px;
+}
+
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+  background: #fbf8cc;
+  border-radius: 10px;
+}
+
+.overlay {
+  transition: 0.5s ease;
+  width: 100%;
+  opacity: 0;
+}
