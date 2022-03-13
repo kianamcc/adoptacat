@@ -44,7 +44,7 @@ const Home = () => {
     axios
       .post(
         // get access token
-        "https://api.petfinder.com/v2/oauth2/token", // token request, must be POST, contains single parameter and values named grant_type
+        "http://api.petfinder.com/v2/oauth2/token", // token request, must be POST, contains single parameter and values named grant_type
         `grant_type=client_credentials&client_id=${REACT_APP_API_KEY}&client_secret=${REACT_APP_SECRET_KEY}`
       )
       .then((response) => {
