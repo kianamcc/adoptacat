@@ -1,16 +1,7 @@
-.main-container {
-  justify-content: center;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  margin-top: 40px;
-}
-
-.inner-container {
+.fav-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
   padding: 30px;
 }
 
